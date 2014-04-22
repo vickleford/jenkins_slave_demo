@@ -1,13 +1,15 @@
 {
   "sources": {
+    "jenkins": {
+      "locked_version": "2.0.3",
+      "git": "https://github.com/opscode-cookbooks/jenkins.git",
+      "ref": "6983510a9c78ad2ad300e3d6dbe744b9a15673c6"
+    },
     "jenkins_slave_demo": {
       "path": "."
     },
     "apt": {
       "locked_version": "2.3.8"
-    },
-    "jenkins": {
-      "locked_version": "2.0.2"
     },
     "runit": {
       "locked_version": "1.5.10"

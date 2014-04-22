@@ -4,7 +4,7 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "precise32"
+  config.vm.box = "ci-ubuntu-12.04"
   config.berkshelf.enabled = true
 
   config.vm.define "master" do |master|
